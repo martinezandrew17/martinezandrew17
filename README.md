@@ -3,7 +3,7 @@
 <h2>👨‍💻 Software Development Projects:</h2>
 
 - <b>La Liga Prediction Model(Python, TensorFlow, Scikit, Pandas, NumPy, Streamlit, XgBoost)</b>
-  - [Predicting Winner of Spain's Soccer League](https://github.com/martinezandrew17/martinezandrew17/tree/main/LaLiga%20Prediction%20Model)
+  - [Predicting Winner of Spain's Soccer League](https://github.com/martinezandrew17/martinezandrew17/tree/main/LaLigaPrediction/LaLigaPredictionModel)
 - <b>Web Portfolio Interface(HTML, CSS, JavaScript, TypeScript, React.js, Next.js, Tailwind CSS)</b>
   - [Web Development Interface](https://github.com/martinezandrew17/martinezandrew17/tree/main/Web%20Interface%20Portfolio)
 - <b>Leftover Food Tracker(C++, HTML, CSS , Javascript, Crow C++ Microframework, RapidJSON)</b>
