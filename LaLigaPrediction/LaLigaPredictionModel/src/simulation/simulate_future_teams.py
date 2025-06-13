@@ -1,8 +1,6 @@
-# src/simulation/simulate_future_teams.py
-
+import os
 import pandas as pd
 import numpy as np
-import os
 
 def generate_synthetic_team_data(start_year=2025, seasons=5):
     np.random.seed(42)
@@ -14,17 +12,18 @@ def generate_synthetic_team_data(start_year=2025, seasons=5):
     ]
 
     data = []
-    for season in range(start_year, start_year + seasons):
+    for year in range(start_year, start_year + seasons):
         for team in teams:
-            wins = np.random.randint(12, 27)
-            draws = np.random.randint(5, 15)
+            wins = np.random.randint(5, 30)
+            draws = np.random.randint(0, 15)
             losses = 38 - wins - draws
-            goals_scored = np.random.randint(40, 90)
-            goals_against = np.random.randint(30, 80)
+            goals_scored = np.random.randint(30, 90)
+            goals_against = np.random.randint(25, 85)
             goal_diff = goals_scored - goals_against
             points = wins * 3 + draws
+
             data.append({
-                "season": season,
+                "season": year,
                 "team": team,
                 "wins": wins,
                 "draws": draws,
@@ -39,7 +38,6 @@ def generate_synthetic_team_data(start_year=2025, seasons=5):
     df = pd.DataFrame(data)
     df.to_csv("data/synthetic/future_teams.csv", index=False)
     print("✅ Synthetic future team data saved to data/synthetic/future_teams.csv")
-    return df
 
 if __name__ == "__main__":
     generate_synthetic_team_data()
