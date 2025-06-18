@@ -7,7 +7,7 @@
 - <b>Web Portfolio Interface(HTML, CSS, JavaScript, TypeScript, React.js, Next.js, Tailwind CSS)</b>
   - [Web Development Interface](https://github.com/martinezandrew17/martinezandrew17/tree/main/Web%20Interface%20Portfolio)
 - <b>Leftover Food Tracker(C++, HTML, CSS , Javascript, Crow C++ Microframework, RapidJSON)</b>
-  - [GUI Tracker Using C++](https://github.com/martinezandrew17/martinezandrew17/tree/main/Leftover%20Food%20Tracker)
+  - [GUI Tracker Using C++](https://github.com/martinezandrew17/martinezandrew17/tree/main/leftoverfoodtracker-martinezandrew17)
 
 
 <h2> 🤳 Connect with me:</h2>
