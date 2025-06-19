@@ -1,19 +1,48 @@
-<h1>Hi, I'm Andrew! <br/><a href="https://github.com/martinezandrew17">Junior Software Developer</a>, <a href="https://www.linkedin.com/in/martinezandrew17/">Cybersecurity Intern</a>
+# 🧭 Career Compass
 
-<h2>👨‍💻 Software Development Projects:</h2>
+Career Compass is a simple web app that helps students and early professionals track job applications, get job and skill recommendations, and improve their resumes using AI.
 
-- <b>La Liga Prediction Model(Python, TensorFlow, Scikit, Pandas, NumPy, Streamlit, XgBoost)</b>
-  - [Predicting Winner of Spain's Soccer League](https://github.com/martinezandrew17/martinezandrew17/tree/main/LaLigaPredictionModel)
-- <b>Web Portfolio Interface(HTML, CSS, JavaScript, TypeScript, React.js, Next.js, Tailwind CSS)</b>
-  - [Web Development Interface](https://github.com/martinezandrew17/martinezandrew17/tree/main/Portfolio%20Website/portfolio-website-master)
-- <b>Leftover Food Tracker(C++, HTML, CSS , Javascript, Crow C++ Microframework, RapidJSON)</b>
-  - [GUI Tracker Using C++](https://github.com/martinezandrew17/martinezandrew17/tree/main/leftoverfoodtracker-martinezandrew17)
+📄 Features:
+
+- Upload your resume (PDF or text)
+- Get job and skill recommendations
+- Receive AI-powered resume suggestions (using GPT)
+- Track job applications and progress
+
+🛠️ Tech Stack:
+
+- Backend: Python + FastAPI
+- Frontend: React + Vite
+- AI/NLP: OpenAI (GPT), spaCy, PyMuPDF
+- Database: PostgreSQL
+
+🚀 Getting Started:
+
+```bash
+# Clone the project
+git clone https://github.com/yourusername/career-compass.git
+cd career-compass
+
+# Run the backend
+cd backend
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+uvicorn app.main:app --reload
+
+# Run the frontend
+cd ../frontend
+npm install
+npm run dev
+```
 
 
-<h2> 🤳 Connect with me:</h2>
+👋 Contact:
 
-[<img align="left" alt=" Andrew Martinez | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-[<img align="left" alt=" Andrew Martinez | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
+Made by Andrew Martinez
 
-[instagram]: https://www.instagram.com/aann.drewww/
-[linkedin]: https://www.linkedin.com/in/martinezandrew17/
+📧 [Gmail](martinezandrew2023@gmail.com)
+
+💼 [LinkedIn](https://www.linkedin.com/in/martinezandrew17/)
+
+💻 [Github](https://github.com/martinezandrew17)
